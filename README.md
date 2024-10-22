@@ -36,8 +36,36 @@
 1. Planning: In this phase, requirements are gathered, analyzed, documented and prioritized. As part of the planning process, labor and material costs are estimated and weighed against time constraints. Also, project teams are identified, and roles of each member are proposed. If the stakeholders are struggling to define requirements, a prototype can be produced by the development team to get stakeholder feedback and establish requirements.
 After the requirements have been gathered, they are combined into a document called SRS (Software Requirements Specification). The SRS needs to be clearly understood and approved by all stakeholders.
 
-2. Design: In this phase, the requirements from the SRS are used to develop the s/w architecture.The architecture is reviewed by the stakeholder and the team. During this phase prototypes can be designed. A prototype is a small-scale replica of the end product used foor demonstration purposes. The document created in this phase is called a design document, and is used by the developers during the next phase, which is the development phase.
+Software requirements can be classified into four broad categories:
+    1. functional
+    2. external & UI
+    3. system features
+    4. non-functional
 
-3. Development : In this phase, the developers start the coding process once the design document is completed. The project planners use the design document to determine and assign coding tasks.This phase often requires the use of programming tools, different programming languages and s/w stacks. Organizations may also have standards or guidelines that need to be followed.
+5. Design: In this phase, the requirements from the SRS are used to develop the s/w architecture.The architecture is reviewed by the stakeholder and the team. During this phase prototypes can be designed. A prototype is a small-scale replica of the end product that can be used for demonstration purposes. The document created in this phase is called a design document, and is used by the developers during the next phase, which is the development phase. Software Design is the process of transforming the requirements into a structure that is implementable using code. It transforms the requirements into a s/w solution. The technical lead breaks down requirements into sets of related components with clearly defined boundaries, and interactions. These components define the system architecture. The design communicates business rules and application logic.
 
-4.  
+6. Development: In this phase, the developers start the coding process once the design document is completed. The project planners use the design document to determine and assign coding tasks.This phase often requires the use of programming tools, different programming languages and s/w stacks. Organizations may also have standards or guidelines that need to be followed.
+
+7. Testing: Code needs to be thoroughly tested to ensure it is stable, secure, and meets the requirements outlined in the SRS. Testing can be manual, automated or a hybrid of both. Product bugs are reported, tracked, and fixed, and retested until the software is stable. Some common levels of testing include unit testing, integration testing, system testing and acceptance testing.
+
+8. Deployment: The deployment phase is where the application is released into the production environment and made available to the users. This approach can be used for making s/w available on a website, mobile device app store, or a s/w distribution server on a corporate n/w.
+
+9. Maintenance: This phase happens once the code has been deployed into a production environment. This phase helps to find any other bugs, identify UI issues and identify other requirements that may not have been listed in the SRS. Code enhancements can also be identified at this stage. They are incorporated into the requirements as part of a future s/w release and the process can start over again.
+
+### Summary:
+The SDLC can be divided into six phases:
+1. Planning: requirement gathering, create SRS
+2. Design: develop architecture, create design document
+3. Development: coding
+4. Testing: identify and fix bugs
+5. Deployment: code released to production environment
+6. Maintenance: stakeholder feedback, issues
+
+### Code Quality
+Code quality refers to the characteristics of the code including attributes such as maintainability, readability, testability, and security. Quality code must fulfill the intended requirements of the s/w without defects. Additionally, it should be clean and consistent, easy to read and maintain, well documented, and efficient.
+
+### Software Testing
+The process of verifying that s/w matches established requirements and is free of bugs. Its purpose is to identify errors, gaps, or missing requirements when compared with stated requirements. Properly tested s/w ensures reliability, security, performance, and efficiency. S/w testing can often be automated or done manually. Levels of testing include unit, integration, system and user acceptance.
+
+- Unit testing is often performed by the developer and tests the smallest component of code that can be isolated from the rest of the system. 
+
