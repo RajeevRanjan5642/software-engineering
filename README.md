@@ -7,3 +7,8 @@
     - Writing and testing code
     - Consulting with stakeholders, third party vendors, security specialists, and other team members
 - S/w engineers build systems while s/w developers implement specific functionalitites.
+
+## Phases of the SDLC
+
+
+
