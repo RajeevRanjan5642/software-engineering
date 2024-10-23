@@ -36,12 +36,6 @@
 1. Planning: In this phase, requirements are gathered, analyzed, documented and prioritized. As part of the planning process, labor and material costs are estimated and weighed against time constraints. Also, project teams are identified, and roles of each member are proposed. If the stakeholders are struggling to define requirements, a prototype can be produced by the development team to get stakeholder feedback and establish requirements.
 After the requirements have been gathered, they are combined into a document called SRS (Software Requirements Specification). The SRS needs to be clearly understood and approved by all stakeholders.
 
-Software requirements can be classified into four broad categories:
-    1. functional
-    2. external & UI
-    3. system features
-    4. non-functional
-
 Requirement gathering includes:
 - identifying stakeholders
 - establishing goals and objectives
@@ -83,14 +77,18 @@ It is good to have a representative from every group that the product affects.
 Typically, there may be three documents that result from the requirements gathering process:
 1. Software Requirements Specification (SRS) : A document that captures the functionalities that the s/w should perform and also establishes benchmarks or service levels for its performance.
    - A purpose statement : who will have access to the SRS and how they should use it.
-   - Audience and scope :
-   - constraints
-   - assumptions
-   - dependencies
-   - requirements
+   - Scope : The scope describes the benefits of the s/w, its goals, and objectives.
+   - Constraints : Constraints describe how the product must operate under given conditions that may limit options in the design phase such as conformation to standards or hardware limitations.
+   - Assumptions : Assumptions may include things like operating system or hardware that is needed by the software to function.
+   - Dependencies : Dependencies on other software products should also be noted.
+   - Requirements : Requirements can be classified into four categories:
+        1. Functional : Functional requirements are those that cover the functionalities of the software.
+        2. External : External requirements are the requirements that address the behavior of the software in relation to external entities such as users and other h/w or s/w.
+        3. system features : System features are a subset of functional requirements. These are the required features for the system to function
+        4. non-functional : There are also non-functional requirements such as specifying performance, safety, security, and quality standards.
      
-2. User Requirements Specification (URS)
-3. System Requirements Specification (SysRS)
+2. User Requirements Specification (URS) : use cases and user stories
+3. System Requirements Specification (SysRS) : syatem capabilities and acceptance criteria, policy, regulation, personnel, performance, security and hardware requirements.
 
 6. Design: In this phase, the requirements from the SRS are used to develop the s/w architecture.The architecture is reviewed by the stakeholder and the team. During this phase prototypes can be designed. A prototype is a small-scale replica of the end product that can be used for demonstration purposes. The document created in this phase is called a design document, and is used by the developers during the next phase, which is the development phase. Software Design is the process of transforming the requirements into a structure that is implementable using code. It transforms the requirements into a s/w solution. The technical lead breaks down requirements into sets of related components with clearly defined boundaries, and interactions. These components define the system architecture. The design communicates business rules and application logic.
 
@@ -134,6 +132,7 @@ When the newest version of the s/w is distributed, it is referred to as a "relea
 - Software documentation should be provided to both non-technical end-users and technical users.
 - System documentation is geared towards the technical user. Technical users may be other engineers, developers, or architects. System documentation explains how the s/w operates or how to use it. It consists of README files, inline comments, architecture and design documents, verification information and maintenance guides.
 - User documentation is provided to the non-technical end-users to assist them in the use of the product. Generally user documentation is provided in the form of user guides, instructional videos, manuals and online help.
+- 
 
 
 
