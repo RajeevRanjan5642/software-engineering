@@ -1,7 +1,7 @@
 # software-engineering
 
 ## What is Software Engineering ?
-- s/w engineering is the systematic approach to the design and development of s/w.
+- Software engineering is the systematic approach to the design and development of s/w.
 - Responsibilities of a s/w engineer include:
     - Designing, building, and maintaining s/w systems.
     - Writing and testing code.
@@ -132,7 +132,24 @@ When the newest version of the s/w is distributed, it is referred to as a "relea
 - Software documentation should be provided to both non-technical end-users and technical users.
 - System documentation is geared towards the technical user. Technical users may be other engineers, developers, or architects. System documentation explains how the s/w operates or how to use it. It consists of README files, inline comments, architecture and design documents, verification information and maintenance guides.
 - User documentation is provided to the non-technical end-users to assist them in the use of the product. Generally user documentation is provided in the form of user guides, instructional videos, manuals and online help.
-- 
+
+## Software Development Methodologies
+
+### Waterfall method
+- It is a sequential method of s/w development where the o/p of one phase is the input for the next phase of the cycle.
+- Development and work on the next phase start only after the completion of the previous phase.
+- All planning such as defining requirements and architectural design, is done up front.
+- The customer usually does not see the product until it is in the testing phase.
+- For a major version release of the product, the same process is repeated resulting in long intervals such as years, between releases.
+- plan -> design -> develop -> test -> deploy -> maintain
+
+### V-shape model
+- The V-shape model is named as such because the phases form the shape of a V.
+- The phases going down the left side of the V are called 'verification' and going up the right are called 'validation'.
+- Each phase in verification corresponds with a validation phase.
+- There are 4 stages that occur on each side of the V. Going down the V are planning, system design, architecture design, and then module design. The bottom of the V is the coding phase. And going up the V are 4 phases that correspond to the phases going down the V: unit testing, integration testing, system testing and acceptance testing.
+- The tests are written during the verification phases on the left and executed during the validation stages on the right.
+
 
 
 
