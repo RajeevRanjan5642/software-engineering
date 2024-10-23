@@ -143,12 +143,17 @@ When the newest version of the s/w is distributed, it is referred to as a "relea
 - For a major version release of the product, the same process is repeated resulting in long intervals such as years, between releases.
 - plan -> design -> develop -> test -> deploy -> maintain
 
+![image](https://github.com/user-attachments/assets/3fcebf18-595f-4ea5-9f1b-a3d093f8b282)
+
 ### V-shape model
 - The V-shape model is named as such because the phases form the shape of a V.
 - The phases going down the left side of the V are called 'verification' and going up the right are called 'validation'.
 - Each phase in verification corresponds with a validation phase.
 - There are 4 stages that occur on each side of the V. Going down the V are planning, system design, architecture design, and then module design. The bottom of the V is the coding phase. And going up the V are 4 phases that correspond to the phases going down the V: unit testing, integration testing, system testing and acceptance testing.
 - The tests are written during the verification phases on the left and executed during the validation stages on the right.
+  
+![image](https://github.com/user-attachments/assets/d09a4727-72cb-49b1-801b-93eec32b699d)
+
 
 
 
