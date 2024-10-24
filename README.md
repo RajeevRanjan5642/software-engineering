@@ -203,9 +203,9 @@ When the newest version of the s/w is distributed, it is referred to as a "relea
   - The second number indicates minor changes to the software.
   - The third number indicates patches or minor bug fixes.
   - The fourth number indicates a build number or a build date, and it can indicate less significant changes made.
-  - Lack of compatibility between old and new versions of s/w is a common problem.
-  - Sometimes updating s/w to a newer version will resolve compatibility issues.
-  - Some s/w is backwards compatible. If a program or application is backwards compatible, then the older versions of files, programs, and systems will work properly with newer versions.
+- Lack of compatibility between old and new versions of s/w is a common problem.
+- Sometimes updating s/w to a newer version will resolve compatibility issues.
+- Some s/w is backwards compatible. If a program or application is backwards compatible, then the older versions of files, programs, and systems will work properly with newer versions.
 
 
 
