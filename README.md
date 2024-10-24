@@ -213,10 +213,17 @@ When the newest version of the s/w is distributed, it is referred to as a "relea
 - In order to test s/w the team writes "test cases". These test cases are written to verify the functionality of a s/w application and ensure requirements have been satisfied.
 - A test case contains : steps, inputs, data and the expected corresponding outputs.
 - Regardless of the test type or development method, test cases should always be written after requirements are finalized.
+  
 - Testing can be broadly classified into three categories:
-  1. Functional Testing : Functional testing usually involves black box testing wich is a method of testing without looking at source code or internal structure. Functional testing is only concerned with inputs and corresponding outputs of the system under test. It is entirely based on testing functional requirements. The goal is to test the functionality of the application making sure the application is usabl and accessible. Functional testing makes sure that when user errors or input edge cases do occur, the s/w handles those exceptions seamlessly by displaying appropriate error messages.
-  2. Non-Functional Testing
-  3. Regression Testing
+  1. Functional Testing : Functional testing usually involves black box testing which is a method of testing without looking at source code or internal structure. Functional testing is only concerned with inputs and corresponding outputs of the system under test. It is entirely based on testing functional requirements. The goal is to test the functionality of the application making sure the application is usabl and accessible. Functional testing makes sure that when user errors or input edge cases do occur, the s/w handles those exceptions seamlessly by displaying appropriate error messages.
+  2. Non-Functional Testing : Non-functional testing includes testing the application for attributes like performance, security, scalability, and availability.
+  3. Regression Testing : Also called maintenance testing, confirms that a recent change to the application, such as a bug fix, does not adversely affect already existing functionality. Regression testing should occur when there has been a change in requirements or defects have been fixed.
+
+- There are four testing levels :
+  1. Unit Testing : Unit testing refers to tests that verify the functionality of a specific section of code, usually at the function level. It is performed by the s/w developer or engineer during the development phase of the SDLC. Unit testing aims to eliminate construction errors before code is integrated with other modules.
+  2. Integration Testing : Prior to integration testing, smaller, independent code modules that passed unit testing are incorporated into the larger s/w application. After modules are integrated together, then integration testing can occur. Integration testing exposes bugs that occur when those smaller units of code interact with each other.
+  3. System Testing : System Testing occurs after integration testing and is consucted on a complete, integrated system to evaluate the system's compliance with its specified requirements.
+  4. Acceptance Testing : It is a formal testing w.r.t user needs, requirements, and business processes. It determines whether a system satisfies the needs of the users, customers, and other stakeholders. Acceptance testing is usually done by the customer or the stakeholders during the maintenance stage of the SDLC.
 
 
 
