@@ -145,6 +145,14 @@ When the newest version of the s/w is distributed, it is referred to as a "relea
 
 ![image](https://github.com/user-attachments/assets/3fcebf18-595f-4ea5-9f1b-a3d093f8b282)
 
+#### Pros:
+1. Easy to understand and follow.
+2. Each stage/phase is discrete and well-defined, making it easy for all team members to understand their roles.
+3. Since planning is done upfront, it is easier to estimate a budget and allocate resources.
+
+#### Cons:
+1. Waterfall lacks flexibility. Since all planning is done upfront if a requirement is changed that change can be hard to incorporate at a later date.
+
 ### V-shape model
 - The V-shape model is named as such because the phases form the shape of a V.
 - The phases going down the left side of the V are called 'verification' and going up the right are called 'validation'.
@@ -153,6 +161,44 @@ When the newest version of the s/w is distributed, it is referred to as a "relea
 - The tests are written during the verification phases on the left and executed during the validation stages on the right.
   
 ![image](https://github.com/user-attachments/assets/d09a4727-72cb-49b1-801b-93eec32b699d)
+
+#### Pros:
+- Simple and easy to use.
+- Designing test plans during the verification phases saves considerable time during coding and validation phases.
+
+#### Cons :
+1. It does not readily accomodate changing requirements.
+
+### Agile model
+- It focuses on a collaborative s/w development process over multiple short cycles rather than a strictly top-down linear process.
+- It is an iterative approach to development.
+- It aligns with the SDLC, but each phase is short.
+- Teams work in cycles, or sprints, which are usually one to four weeks long.
+- Unit testing happens in each sprint to minimize the risk of failure.
+- Rather than the 'maintenance' stage of the SDLC, the final stage of the sprint is a feedback stage.
+- At the end of each sprint, a chunk of working code is released at a meeting called the 'sprint demo' where stakeholders can see the new functionality and provide feedback.
+- After the sprint demo, the entire process is repeated for every sprint cycle.
+- After several sprint cycles, a minimum viable product, or MVP, is developed so stakeholders can provide feedback on the basic feature set.
+- The 4 core values of Agile developemnt outlined in what is known as the 'Agile manifesto' are:
+  1. individuals and interactions over processes and tools
+  2. working s/w over comprehensive documentation
+  3. customer collaboration over contract negotiation
+  4. responding to change over following a plan.
+
+#### Pros :
+1. With Agile, new, and changing requirements are handled quickly and easily because planning is initiated at the beginning of each sprint cycle.
+2. At the end of each cycle, the QA team, stakeholders, and the customer have some piece of working code to test against requirements and are encouraged to provide feedback.
+
+#### Cons :
+1. Budgeting and sceduling can be challenging because the overall scope of the product is not clearly defined.
+
+### Difference b/w traditional SDLC methods and the agile method
+- Traditional SDLC methods are sequential whereas agile is cyclical.
+- Traditional SDLC methods center around the whole product being developed before soliciting customer feedback whereas agile focuses on quick and short bursts of development.
+
+
+
+
 
 
 
