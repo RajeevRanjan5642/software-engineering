@@ -207,6 +207,19 @@ When the newest version of the s/w is distributed, it is referred to as a "relea
 - Sometimes updating s/w to a newer version will resolve compatibility issues.
 - Some s/w is backwards compatible. If a program or application is backwards compatible, then the older versions of files, programs, and systems will work properly with newer versions.
 
+### Software Testing
+- Software Testing is the practice of integrating quality checks throughout the s/w development cycle.
+- The purpose of testing is to check whether the s/w matches expected requirements and ensure error-free s/w.
+- In order to test s/w the team writes "test cases". These test cases are written to verify the functionality of a s/w application and ensure requirements have been satisfied.
+- A test case contains : steps, inputs, data and the expected corresponding outputs.
+- Regardless of the test type or development method, test cases should always be written after requirements are finalized.
+- Testing can be broadly classified into three categories:
+  1. Functional Testing : Functional testing usually involves black box testing wich is a method of testing without looking at source code or internal structure. Functional testing is only concerned with inputs and corresponding outputs of the system under test. It is entirely based on testing functional requirements. The goal is to test the functionality of the application making sure the application is usabl and accessible. Functional testing makes sure that when user errors or input edge cases do occur, the s/w handles those exceptions seamlessly by displaying appropriate error messages.
+  2. Non-Functional Testing
+  3. Regression Testing
+
+
+
 
 
 
