@@ -225,9 +225,43 @@ When the newest version of the s/w is distributed, it is referred to as a "relea
   3. System Testing : System Testing occurs after integration testing and is consucted on a complete, integrated system to evaluate the system's compliance with its specified requirements.
   4. Acceptance Testing : It is a formal testing w.r.t user needs, requirements, and business processes. It determines whether a system satisfies the needs of the users, customers, and other stakeholders. Acceptance testing is usually done by the customer or the stakeholders during the maintenance stage of the SDLC.
 
+### Overview of web and cloud development
 
+- Frontend : The front-end deals with everything that happens at the client-side, everything the user can see and interact with. One can choose to specialize in front-end coding using HTML,CSS and JavaScipt and related frameworks, libraries, and tools.
+  
+- Backend : The back-end deals with everything that happens on the server before the code and data are sent to the client. The back-end coding usually handles the logic and functionality that make the website or app work, and the authentication processes that keep data secure. Backend developers may also work with relational or noSQL databases, even collaborating with database administrators in bigger projects.
 
+- Full-stack developers have skills, knowledge, and experience in both front-end and back-end environments.
 
+### Learning Front-End Development
+- To create a website, web developers usually use Hypertext Markup Language (HTML), Cascading Style Sheets (CSS) and JavaScript. These languages are designed to work in conjunction with each other.
+- HTML is used to create the physical structure of a website. The physical structure contains elements such as text, links, images/videos, page dividers and buttons.
+- The HTML code ensures a proper formatting of all text and image elements so that browsers display the page consistently.
+- CSS provides frontend developers with a standard method to define, apply, and manage different sets of style characteristics for a website and each of its components.
+- CSS ensures uniformity in look and feel, style, colors, fonts, designs and layouts.
+- JavaScript is an Object-Oriented Programming language that is used in conjunction with HTML and CSS to add interactivity to a website.
+
+- A new front-end development language is Syntactically Awesome Style Sheets called SAAS.
+- It is an extension of CSS that is compatible with all versions of CSS.
+- SASS enables you to use things like variables, nested rules, and inline imports to keep things organized.
+- SASS allows you to create style sheets faster and more easily.
+
+- Reactive or adaptive websites display the version of the website designed for a specific screen size.
+- Responsive design of a website means that it will automatically resize to the device it is being accessed from.
+
+- ReactJS has been developed and maintained by Facebook. It is a JavaScript library that builds and renders components for a web page.
+
+- The task of front-end developer evolves continuously. The technologies are upgraded constantly and so front-end developers needs to keep upgrading the websites that they create. The websites that they create should work in multiple browsers, multiple operating systems and multiple devices.
+
+### The Importance of Back-End Development
+- A front-end developer creates websites and cloud applications using HTML, CSS and JavaScript to create what the user sees and interacts with in the client software.
+- A back-end developer creates and manages all the resources that are needed to respond to the requests that the user makes through through the client.
+- The back-end developer's tasks focus on enabling the server infrastructure, or back-end, to process requests, supply data, and provide other services securely.
+- Back-end developers use APIs, routes, and endpoints to process incoming requests:
+  - An API is a code that works with data, usually using JSON or XML.
+  - A route is a path to a website or page that user interacts with. Routes generally take user input and show results based on the input.
+  - An endpoint may be an API or may simply be a path. When a request from the front-end arrives at the back-end, it is routed to the correct service. If the backend has an end point defined for the request by using routing, the request will be addressed and replied to. If the end-point is missing, the server returns a 404 error.
+  - To handle requests from databases, back-end developers can use object-relational mapping tools (ORM) to connect to the database and retrieve the correct data.   
 
 
 
