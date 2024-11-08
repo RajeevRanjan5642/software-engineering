@@ -216,9 +216,20 @@ When the newest version of the s/w is distributed, it is referred to as a "relea
 - In order to test s/w the team writes "test cases". These test cases are written to verify the functionality of a s/w application and ensure requirements have been satisfied.
 - A test case contains : steps, inputs, data and the expected corresponding outputs.
 - Regardless of the test type or development method, test cases should always be written after requirements are finalized.
-  
+
+### Software Documentation
+- Software documentation is information about the software that describes what the product is and how to use it.
+- There are many types of documentation. We will discuss five categories including requirements, design, technical, quality assurance, and user documentation.
+    1. Requirements documentation: It is written during the planning phase of the SDLC and is intended for the development team including the developers, architects, and QA personnel. Requirements documentation describes the expected features and functionality of the software system.
+    2. Design documentation: It is written by the software architects and the development team to explain how the software will be built to meet the requirements. It consists of both conceptual and technical design documents.
+    3. Technical documentation: It includes comments written in the code to help other developers read the code to understand its behavior. It also may include working papers that explain how the code works and documents that record engineers' ideas and thoughts during project implementation.
+    4. Quality assurance documentation: It includes all documents that pertain to a testing team's strategy, progress, and metrics. Types of test documentation include test plans, test data, test scenarios, test cases, test strategies, and traceability matrices. Traceability matrices map test cases to their requirements.
+    5. User documentation : It is intended for end-users and explains how to operate the software or help them to install or troubleshoot the system. End-user documentation includes frequently asked questions, installation, help guides, tutorials, and user manuals.
+
+- SOP (Standard Operating Procedure) : The SOP is written documentation that explains step-by-step how to accomplish a common, yet complex task that is organization specific. For example, an organization might have specific steps to follow for tat organization in order to get code merged into to main branch. In short SOPs are written instructions detailing an organization-specific procedure.
+
 - Testing can be broadly classified into three categories:
-  1. Functional Testing : Functional testing usually involves black box testing which is a method of testing without looking at source code or internal structure. Functional testing is only concerned with inputs and corresponding outputs of the system under test. It is entirely based on testing functional requirements. The goal is to test the functionality of the application making sure the application is usable and accessible. Functional testing makes sure that when user make any errors or input edge cases occur, the s/w handles those exceptions seamlessly by displaying appropriate error messages.
+  1. Functional Testing: Functional testing usually involves black box testing which is a method of testing without looking at source code or internal structure. Functional testing is only concerned with inputs and corresponding outputs of the system under test. It is entirely based on testing functional requirements. The goal is to test the functionality of the application making sure the application is usable and accessible. Functional testing makes sure that when user make any errors or input edge cases occur, the s/w handles those exceptions seamlessly by displaying appropriate error messages.
   2. Non-Functional Testing : Non-functional testing includes testing the application for attributes like performance, security, scalability, and availability.
   3. Regression Testing : Also called maintenance testing, confirms that a recent change to the application, such as a bug fix, does not adversely affect already existing functionality. Regression testing should occur when there has been a change in requirements or defects have been fixed.
   4. User Acceptance Testing (UAT): Testing by end-users to ensure that the product meets their requiements.
