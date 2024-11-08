@@ -112,6 +112,9 @@ The SDLC can be divided into six phases:
 ### Code Quality
 Code quality refers to the characteristics of the code including attributes such as maintainability, readability, testability, and security. Quality code must fulfill the intended requirements of the s/w without defects. Additionally, it should be clean and consistent, easy to read and maintain, well documented, and efficient.
 
+### Quality Assurance
+QA is the processs of ensuring that a product meets specified requirements and is free of defects. It involves testing and monitoring the product throughout its development lifecycle.
+
 ### Software Testing
 The process of verifying that s/w matches established requirements and is free of bugs. Its purpose is to identify errors, gaps, or missing requirements when compared with stated requirements. Properly tested s/w ensures reliability, security, performance, and efficiency. S/w testing can often be automated or done manually. Levels of testing include unit, integration, system and user acceptance.
 
@@ -215,10 +218,11 @@ When the newest version of the s/w is distributed, it is referred to as a "relea
 - Regardless of the test type or development method, test cases should always be written after requirements are finalized.
   
 - Testing can be broadly classified into three categories:
-  1. Functional Testing : Functional testing usually involves black box testing which is a method of testing without looking at source code or internal structure. Functional testing is only concerned with inputs and corresponding outputs of the system under test. It is entirely based on testing functional requirements. The goal is to test the functionality of the application making sure the application is usabl and accessible. Functional testing makes sure that when user errors or input edge cases do occur, the s/w handles those exceptions seamlessly by displaying appropriate error messages.
+  1. Functional Testing : Functional testing usually involves black box testing which is a method of testing without looking at source code or internal structure. Functional testing is only concerned with inputs and corresponding outputs of the system under test. It is entirely based on testing functional requirements. The goal is to test the functionality of the application making sure the application is usable and accessible. Functional testing makes sure that when user make any errors or input edge cases occur, the s/w handles those exceptions seamlessly by displaying appropriate error messages.
   2. Non-Functional Testing : Non-functional testing includes testing the application for attributes like performance, security, scalability, and availability.
   3. Regression Testing : Also called maintenance testing, confirms that a recent change to the application, such as a bug fix, does not adversely affect already existing functionality. Regression testing should occur when there has been a change in requirements or defects have been fixed.
-
+  4. User Acceptance Testing (UAT): Testing by end-users to ensure that the product meets their requiements.
+     
 - There are four testing levels :
   1. Unit Testing : Unit testing refers to tests that verify the functionality of a specific section of code, usually at the function level. It is performed by the s/w developer or engineer during the development phase of the SDLC. Unit testing aims to eliminate construction errors before code is integrated with other modules.
   2. Integration Testing : Prior to integration testing, smaller, independent code modules that passed unit testing are incorporated into the larger s/w application. After modules are integrated together, then integration testing can occur. Integration testing exposes bugs that occur when those smaller units of code interact with each other.
@@ -261,7 +265,8 @@ When the newest version of the s/w is distributed, it is referred to as a "relea
   - An API is a code that works with data, usually using JSON or XML.
   - A route is a path to a website or page that user interacts with. Routes generally take user input and show results based on the input.
   - An endpoint may be an API or may simply be a path. When a request from the front-end arrives at the back-end, it is routed to the correct service. If the backend has an end point defined for the request by using routing, the request will be addressed and replied to. If the end-point is missing, the server returns a 404 error.
-  - To handle requests from databases, back-end developers can use object-relational mapping tools (ORM) to connect to the database and retrieve the correct data.   
+  - To handle requests from databases, back-end developers can use object-relational mapping tools (ORM) to connect to the database and retrieve the correct data.
+       
 
 
 
