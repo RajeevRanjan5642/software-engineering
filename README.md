@@ -277,15 +277,18 @@ When the newest version of the s/w is distributed, it is referred to as a "relea
   - A route is a path to a website or page that user interacts with. Routes generally take user input and show results based on the input.
   - An endpoint may be an API or may simply be a path. When a request from the front-end arrives at the back-end, it is routed to the correct service. If the backend has an end point defined for the request by using routing, the request will be addressed and replied to. If the end-point is missing, the server returns a 404 error.
   - To handle requests from databases, back-end developers can use object-relational mapping tools (ORM) to connect to the database and retrieve the correct data.
-       
 
+### Pair Programming
+- Pair programming is an agile development technique where two developers work alongside each other. They can either be physically present at the same computer or work virtually via virtual meeting or shared screens.
 
+- There are various styles of pair programming:
+  1. Driver/navigator : This style is the most common style, where one developer is the driver typing the code, and other is the navigator, reviewing the code as it's written and giving directions where to go next. The navigator also keeps an eye on the bigger picture of the overall solution. When working in this way, it's important to regularly swap roles to keep both of the pair engaged across the whole task.
+  2. Ping-pong : This style incorporates test-driven development. For each task, one developer writes a failing test and then the second developer writes code to pass that test. For each new task, they swap roles, so regularly changing who writes the test and who writes the implementation. The two developers work together at the end of each task refactoring the successful code to refine and improve it.
+ 
+- Pair programming has many benefits:
+  - It's a good way to share knowledge and skills from one developer to another and a great way for a new team member to get up to speed on a project.
+  - It's a good way of building soft skills such as communication and problem solving.
+  - Having two sets of eyes on the code often results in fewer typos, logic errors and bugs and it enables code reviews to be done on the fly.
+  - Having two people thinking about a problem can result in multiple initial ideas, but is likely to result in the optimal approach being chosen earlier in the process.
 
-
-
-
-
-
-
-
-
+Therefore, pair programming builds technical and soft skills, results in better quality code and solutions and increases overall efficiency.
