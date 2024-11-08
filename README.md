@@ -1,6 +1,6 @@
 # software-engineering
 
-## What is Software Engineering ?
+## What is Software Engineering?
 - Software engineering is the systematic approach to the design and development of s/w.
 - Responsibilities of a s/w engineer include:
     - Designing, building, and maintaining s/w systems.
