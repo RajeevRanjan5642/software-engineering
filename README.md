@@ -18,7 +18,7 @@
 
 ## Advantages of the SDLC:
 - It gives development teams a process to follow rather than using an adhoc approach to improve efficiency and reduce risks.
-- There are discrete phases (the tasks from a previous phase don't ovelap with the tasks in the next phase) in the SDLC. Each phase is well defined so that team members know what they should be working on and when.
+- There are discrete phases (the tasks from a previous phase don't overlap with the tasks in the next phase) in the SDLC. Each phase is well defined so that team members know what they should be working on and when.
 - Because of the well-defined phases, it facilitates communication b/w the customer, other stakeholders, and the development team.
 - Since each phase is discrete, cross-domain teams know when they have completed their tasks and when development can move to the next phase.
 - The SDLC provides room for iteration where at the end of a cycle the process can circle back to incorporate additional requirements as needed.
